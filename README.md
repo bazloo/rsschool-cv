@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://bazloo.github.io/rsschool-cv/cv
