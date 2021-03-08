@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    margin-top: 3vw;
+    font-size: 2vw;
+    font-weight: 700;
+    display: block;
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+    width: 65%;
+    height: fit-content;
+    display: flex;
+    margin: 1vw auto 0 auto;
+    border: 1px solid grey;
+}
+
+aside {
+    min-height: 100%;
+    width: 35%;
+    background-color: rgb(15, 71, 109);
+    color: whitesmoke;
+    text-align: center;
+}
+
+.personal {
+    margin-top: 3vw;
+    width: 100%;
+    height: fit-content;
+}
+
+.photo {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 15vw;
+    margin: auto;
+    margin-bottom: 2vw;
+    overflow: hidden;
+    border: 0.5vw solid white;
+}
+
+.photo-img {
+    width: 150%;
+    height: auto;
+    margin-top: -1vw;
+    margin-left: -7vw;
+}
+
+h1 {
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+h2 {
+    margin-bottom: 3vw;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 2vw;
+    margin-bottom: 2vw;
+}
+
+.contacts {
+    padding-top: 2vw;
+    padding-left: 1vw;
+    text-align: center;
+    background-color: black;
+    height: 10vw;
+    font-size: 1.2vw;
+    line-height: 2vw;
+}
+.flex-wrapper {
+    display: flex;
+
+    width: fit-content;
+}
+
+.location {
+    margin-bottom: 0.5vw;
+    font-size: 1.3vw;
+    font-weight: 700;
+}
+
+.contacts-title {
+    margin-right: 0.5vw;
+    font-weight: 900;
+}
+
+.soft-skills {
+    margin-top: 3vw;
+    font-size: 1.2vw;
+}
+
+.soft-skills span {
+    
+    text-align: justify;
+    margin: auto;
+    display: block;
+    width: 80%;
+}
+
+/*--here starts styles for left "INFO" section--*/
+
+h3 {
+    margin-top: 3vw;
+    margin-bottom: 0.7vw;
+    font-size: 2vw;
+    font-weight: 700;
+    color: rgb(15, 71, 109);
+    display: block;
+}
+
+.info {
+    width: 65%;
+    min-height: 100%;
+    background-color: whitesmoke;
+    padding-left: 4vw;
+    font-size: 1.2vw;
+    color: rgb(76, 87, 87);
+}
+
+.professional {
+    margin-top: 5vw;
+}
+
+.job-description {
+    font-size: 1.5vw;
+    font-weight: 700;
+}   
+
+.hidden {
+    background-color: rgb(226, 224, 224);
+}
+
+ul {
+    margin-left: 1.5vw;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.year {
+    color: black;
+    display: inline-block;
+    width: 90%;
+    text-align: right;
+}
+
+.languages {
+    margin-bottom: 2vw;
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    color: blanchedalmond;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+    justify-content: space-around;
+    width: 65%;
+    height: 5vw;
+    margin: auto;
+    background-color: black;
+    font-size: 1.3vw;
+}
+
+.logo {
+    position: relative;
+    width: 40%;
+    left: 50%;
+    height: auto;
+    margin-left: -25%;
+    margin-top: -4%;
+}
+
+.wrapper {
+    padding-top: 1.5vw;
+    justify-content: center;
+}
+
+.github {
+    width: fit-content;
+    margin: auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer span {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
